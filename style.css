@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* for main navigation-bar #nav-bar */
+.nav-bar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* for second inner div = nav-left */
+.nav-left {
+    height: 60px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo {
+    width: 135px;
+    margin-left: 6px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    height: 35px;
+    width: 104px;
+   background-image: url(Amazon_logo.png);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+}
+
+
+/* for secong elements in nav-left that is nav-address  */
+
+.nav-address {
+    width: 30%;
+   color: white;
+   margin-left: 5px;
+           
+}
+
+.add-first {
+    margin-left: 25px;
+
+}
+
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.icon-location {
+    font-size: 1.3rem;
+}
+.add-second {
+    font-size: 0.75rem;
+}
+
+/* for second element of navigation bar = nav-center */
+.nav-center {
+    height: 60px;
+    width: 350px;
+    margin-right: 20px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-all {
+    height: 42px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.search-bar {
+    height: 39px;
+    width: 76%;
+    background-color: pink;
+}
+.border-search-bar:hover {
+    border: 3px solid orangered;
+    
+    ;
+}
+
+.search-icon {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+.nav-right1 {
+    height: 46px;
+    width: 150px;
+    color: white;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc-detail {
+    height: 35px;
+    width: 135px;
+    text-align: center;
+    /* background-color: red; */
+
+}
+.acc-detail-first {
+    font-size: 0.85rem;
+}
+
+.acc-detail-second {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.nav-right2 {
+    height: 46px;
+    width: 100px;
+    margin: 10px;
+    color: white;
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-order {
+    height: 35px;
+    width: 135px;
+    text-align: center;
+    /* background-color: red; */
+
+}
+.return-order-first {
+    font-size: 0.85rem;
+}
+
+.return-order-second {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-right3 {
+    height: 40px;
+    width: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.icon-cart {
+    font-size: 1.8rem;
+    margin-top: 5px;
+    
+}
+
+.cart {
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.navbar2 {
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* for hero section */
+
+.hero-section-main {
+    height: 700px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section {
+    height: 100%;
+    width: 90%;
+    background-size: cover;
+    background-image: url(hero2.jpg);
+
+}
+
+/* for the shopping section */
+
+.content {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+}
+
+.box-container {
+    height: 1000px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+.box {
+    height: 390px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: antiquewhite;
+
+
+}
+
+.box-image {
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+
+}
+
+.box-content {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+.container-footer {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
